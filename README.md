@@ -15,5 +15,5 @@ reference url is:http://blog.mpayetta.com/node.js/docker/mongodb/2016/09/04/dock
 
 * post
 
-`curl -X POST -H "Content-type: application/json" http://<your-ip>/data/into/db \
+`curl -X POST -H "Content-type: application/json" http://<your-ip>:3000/data/into/db \
     -d '[ { "a": 1 }, { "b": 2 }, { "c": 3 } ]'`
